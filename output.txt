@@ -1,0 +1,28 @@
+00precode.cpp C:\Users\Ovishek Paul\Desktop\Codes\00precode.cpp
+0agc.cpp C:\Users\Ovishek Paul\Desktop\Codes\0agc.cpp
+550C.cpp C:\Users\Ovishek Paul\Desktop\Codes\550C.cpp
+981G - Magic multisets.cpp C:\Users\Ovishek Paul\Desktop\Codes\981G - Magic multisets.cpp
+A easy.cpp C:\Users\Ovishek Paul\Desktop\Codes\A easy.cpp
+a.cpp C:\Users\Ovishek Paul\Desktop\Codes\a.cpp
+C. Fools and Roads.cpp C:\Users\Ovishek Paul\Desktop\Codes\C. Fools and Roads.cpp
+C. The Values You Can Make.cpp C:\Users\Ovishek Paul\Desktop\Codes\C. The Values You Can Make.cpp
+CC.cpp C:\Users\Ovishek Paul\Desktop\Codes\CC.cpp
+copy.cpp C:\Users\Ovishek Paul\Desktop\Codes\copy.cpp
+D geo.cpp C:\Users\Ovishek Paul\Desktop\Codes\D geo.cpp
+D-memory.cpp C:\Users\Ovishek Paul\Desktop\Codes\D-memory.cpp
+D. Prefixes and Suffixes.cpp C:\Users\Ovishek Paul\Desktop\Codes\D. Prefixes and Suffixes.cpp
+DD.cpp C:\Users\Ovishek Paul\Desktop\Codes\DD.cpp
+E moving bricks.cpp C:\Users\Ovishek Paul\Desktop\Codes\E moving bricks.cpp
+E. A and B and Lecture Rooms.cpp C:\Users\Ovishek Paul\Desktop\Codes\E. A and B and Lecture Rooms.cpp
+E. Valera and Queries.cpp C:\Users\Ovishek Paul\Desktop\Codes\E. Valera and Queries.cpp
+FF.cpp C:\Users\Ovishek Paul\Desktop\Codes\FF.cpp
+Geo coverage 7376.cpp C:\Users\Ovishek Paul\Desktop\Codes\Geo coverage 7376.cpp
+H.cpp C:\Users\Ovishek Paul\Desktop\Codes\H.cpp
+my3dGeo.cpp C:\Users\Ovishek Paul\Desktop\Codes\my3dGeo.cpp
+myGeo.cpp C:\Users\Ovishek Paul\Desktop\Codes\myGeo.cpp
+precode.cpp C:\Users\Ovishek Paul\Desktop\Codes\precode.cpp
+test.cpp C:\Users\Ovishek Paul\Desktop\Codes\test.cpp
+testi.cpp C:\Users\Ovishek Paul\Desktop\Codes\testi.cpp
+tour in grid.cpp C:\Users\Ovishek Paul\Desktop\Codes\tour in grid.cpp
+traffic jam that never ends.cpp C:\Users\Ovishek Paul\Desktop\Codes\traffic jam that never ends.cpp
+Y.cpp C:\Users\Ovishek Paul\Desktop\Codes\Y.cpp

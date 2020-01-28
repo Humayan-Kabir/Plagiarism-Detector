@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="PlagiarismDetector.jnlp">
+  <information>
+    <title>PlagiarismDetector</title>
+    <vendor>humay</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="PlagiarismDetector.jar" size="53281" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="PlagiarismDetector" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="plagiarismdetector.PlagiarismDetector"  name="PlagiarismDetector" />
+  <update check="always"/>
+</jnlp>

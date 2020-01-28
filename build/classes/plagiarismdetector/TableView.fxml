@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="673.0" prefWidth="1145.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="plagiarismdetector.TableViewController">
+   <children>
+      <MenuBar prefHeight="25.0" prefWidth="1145.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+                  <MenuItem fx:id="manuSaveAs" mnemonicParsing="false" onAction="#menuSaveAs" text="Save as" />
+              <MenuItem mnemonicParsing="false" onAction="#exitTable" text="Exit" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <TableView fx:id="tableview" layoutX="9.0" layoutY="146.0" prefHeight="517.0" prefWidth="1127.0">
+        <columns>
+          <TableColumn fx:id="person1" prefWidth="400.0" text="1st Person" />
+          <TableColumn fx:id="person2" prefWidth="402.0" text="2nd Person" />
+            <TableColumn fx:id="matching" prefWidth="342.0" text="Matching" />
+        </columns>
+      </TableView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f00" height="80.0" layoutX="9.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="202.0" />
+      <Button fx:id="subNo" disable="true" layoutX="138.0" layoutY="85.0" mnemonicParsing="false" onAction="#setNoButtonPressed" prefHeight="25.0" prefWidth="57.0" text="Submit" />
+      <TextField fx:id="enterNo" alignment="TOP_RIGHT" disable="true" layoutX="85.0" layoutY="85.0" prefHeight="25.0" prefWidth="44.0" text="1" />
+      <RadioButton fx:id="togAll" layoutX="24.0" layoutY="68.0" mnemonicParsing="false" selected="true" text="All">
+         <toggleGroup>
+            <ToggleGroup fx:id="group" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="togEnter" layoutX="24.0" layoutY="89.0" mnemonicParsing="false" text="Enter" toggleGroup="$group" />
+      <Label fx:id="statusLabel" layoutX="10.0" layoutY="124.0" prefHeight="17.0" prefWidth="406.0" text="All pairs are showing" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="80.0" layoutX="222.0" layoutY="41.0" stroke="BLACK" strokeType="INSIDE" width="487.0" />
+      <MenuButton fx:id="sortby1st" layoutX="233.0" layoutY="51.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="85.0" text="Sort By 1st Person" wrapText="true">
+        <items>
+          <MenuItem mnemonicParsing="false" onAction="#sort1stasc" text="Ascending" />
+          <MenuItem mnemonicParsing="false" onAction="#sort1stdesc" text="Descending" />
+        </items>
+      </MenuButton>
+      <Label layoutX="24.0" layoutY="40.0" prefHeight="25.0" prefWidth="182.0" text="Number of Top Matches To show" wrapText="true" />
+      <MenuButton fx:id="sortby2nd" layoutX="331.0" layoutY="51.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="85.0" text="Sort By 2nd Person" wrapText="true">
+         <items>
+            <MenuItem mnemonicParsing="false" onAction="#sort2ndasc" text="Ascending" />
+            <MenuItem mnemonicParsing="false" onAction="#sort2nddesc" text="Descending" />
+         </items>
+      </MenuButton>
+      <MenuButton fx:id="sortbyresult" layoutX="426.0" layoutY="51.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="85.0" text="Sort By Result" wrapText="true">
+         <items>
+            <MenuItem mnemonicParsing="false" onAction="#sortresasc" text="Ascending" />
+            <MenuItem mnemonicParsing="false" onAction="#sortresdesc" text="Descending" />
+         </items>
+      </MenuButton>
+   </children>
+</AnchorPane>

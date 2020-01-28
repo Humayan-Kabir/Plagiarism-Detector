@@ -1,0 +1,39 @@
+package plagiarismdetector;
+
+
+public class Parameters {
+    int K = 5;
+    int W = 6;
+    double PERCENTAGE_LIMIT = 0.58;
+    double PERCENTAGE_LIMIT_HIGH = 0.70;
+    int minSourceCodeLength = 10;
+    int p = 257;
+    public Parameters() {
+
+    }
+    Parameters withK(int K) {
+        this.K = K;
+        return this;
+    }
+    Parameters withW(int W) {
+        this.W = W;
+        return this;
+    }
+    Parameters withPercentageLimit(double percentage) {
+        this.PERCENTAGE_LIMIT = percentage;
+        return this;
+    }
+    Parameters withPrimeP(int prime) {
+        this.p = prime;
+        return this;
+    }
+
+    public int getK() {
+        return K;
+    }
+
+    public int getW() {
+        return W;
+    }
+    
+}
